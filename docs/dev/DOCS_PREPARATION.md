@@ -19,7 +19,7 @@ Onepass: complete target from the user's 2026-11-03 request. A classic single-fi
 | Task | Current evidence / decision basis |
 | --- | --- |
 | DOCS-001 | Four existing root files preserved byte for byte against initial commit bee81082ab981cfabb90f2807d5e8b0cd5f1e60f; no root copies required. Templates instantiated for DOCS_TASKS, this record and HANDOFF. Provenance seed/default merge verified below. Completion is in this owning commit; push and issue closure require subsequent readback. |
-| DOCS-002 | PROJECT not yet proposed; gameplay choices and brief approval pending. |
+| DOCS-002 | Onepass PROJECT proposal, SHA-256 `3cb90a1f954f929425e906b1dc6dcec0eb9026ddcff8572e815a97783efc5c31`; [PROJECT](PROJECT.md). User has not approved it. Coverage reviewed against the complete prompt; material proposals are in its approval table. README states planned scope and links disclosure/usage. DOCS-002 remains unchecked and issue #2 remains open. |
 | DOCS-003 | ARCHITECTURE not authored; eligible after PROJECT acceptance. |
 | DOCS-004 | DECOMPOSITION not authored; selected model/API artifacts undecided. |
 | DOCS-005 | SPEC and its QC not authored; selected contract artifacts undecided. |
@@ -41,4 +41,6 @@ Onepass: complete target from the user's 2026-11-03 request. A classic single-fi
 
 ## Pending transitions
 
-Publish and read back this initialization commit, then add verified evidence to DOCS-001 issue #1, close it as completed and read back. No dependent document work until these effects are confirmed. Reconcile Git and hosted state on recovery before retrying.
+Initialization commit 94ad1685b77edc8d604e165670e11e0e73563662 was pushed and exact design-docs/main readback matched. Issue #1 has the completion evidence comment; its completed closure and milestone #1 association were separately read back.
+
+Publish/read back the PROJECT proposal commit, then present the brief and proposed choices for human approval. Do not close DOCS-002, author ARCHITECTURE or treat proposals as accepted until approval. No release is due before verified integrated implementation.
